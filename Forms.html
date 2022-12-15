@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>This is form tutorial</h2>
+    <form action="Backend.php">
+        <label for="name">Name : </label>
+        <input type="text" name="Myname" id="name"> <br> <br>
+        Role : <input type="text" name="MyRole"> <br> <br>
+        Email : <input type="email" name="Myemail">
+        <!--Name is a name by which backend access ths data.--> <br>
+        Date : <input type="date" name="Data" id=""> <br> <br>
+        Are you eligible ? <input type="checkbox" name="Myeligibility"> <br> <br>
+        Gender : Male <input type="radio" name="mygender"> Female <input type="radio" name="mygender"> <br> <br>
+        <!--Here i select one radio button becouse the name attribute that i given is same for the both-->
+        Write about yourself : <br> <textarea name="mytext" cols="30" rows="10"></textarea>
+        <br> <input type="submit" value="Submit This"> <br> <br>
+        <label for="car">Car</label>
+        <select name="mycar" id="car">
+            <option value="ind">Indica</option>
+            <option value="swift">Swift</option>
+            <option value="toyta">Innova</option>
+        </select>
+        Reset : <input type="reset" name="myreset">
+    </form>
+    <!--Action  is a endpoint where all the ata of form is stored-->
+
+    <!--Input tag is a spnic inline element and div is a blog element -->
+</body>
+
+</html>
