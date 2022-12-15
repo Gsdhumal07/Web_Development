@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Proporty </title>
+    <style>
+        /* Display block is took all the place  */
+        header{
+            height: auto;
+            width: 70%;
+            margin: auto;
+            border: 2px solid red;
+        }
+        img{
+            width: 45px;
+            padding-top: 20px;
+            margin: auto;
+            display: block;
+        }
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+             padding: 15px 15px;
+        }
+        .box{
+            border: 4px solid black;
+            background-color: gray;
+            margin: 4px;
+            padding: 23px;
+            display: inline-block;
+            width: 30%;
+            box-sizing: border-box;/*due to this the width is equal to given width including padding and margine*/
+        }
+        .container{
+            margin: auto;
+            width: 1200px;
+        }
+    </style>
+</head>
+<body>
+    <header class="top">
+        <img src="wallpaper.jpg" alt="">
+        <h1>Welcome to my Blog's </h1>
+        
+    </header>
+    <div class="container">
+        <div class="box">
+            <h2 class="heading">Heaing</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quibusdam dolorum quia distinctio obcaecati! Dicta eius quam cum possimus, sunt nulla numquam iusto eaque vero molestias! Aut consequatur architecto ipsa sed omnis, ea eos? Sunt in molestiae natus blanditiis autem excepturi, quis sed voluptatibus eius quia eveniet ea provident culpa!</p>
+        </div>
+        <div class="box">
+            <h2 class="heading">Heaing</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quibusdam dolorum quia distinctio obcaecati! Dicta eius quam cum possimus, sunt nulla numquam iusto eaque vero molestias! Aut consequatur architecto ipsa sed omnis, ea eos? Sunt in molestiae natus blanditiis autem excepturi, quis sed voluptatibus eius quia eveniet ea provident culpa!</p>
+        </div>
+        <div class="box">
+            <h2 class="heading">Heaing</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quibusdam dolorum quia distinctio obcaecati! Dicta eius quam cum possimus, sunt nulla numquam iusto eaque vero molestias! Aut consequatur architecto ipsa sed omnis, ea eos? Sunt in molestiae natus blanditiis autem excepturi, quis sed voluptatibus eius quia eveniet ea provident culpa!</p>
+        </div>
+        <div class="box">
+            <h2 class="heading">Heaing</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quibusdam dolorum quia distinctio obcaecati! Dicta eius quam cum possimus, sunt nulla numquam iusto eaque vero molestias! Aut consequatur architecto ipsa sed omnis, ea eos? Sunt in molestiae natus blanditiis autem excepturi, quis sed voluptatibus eius quia eveniet ea provident culpa!</p>
+        </div>
+    </div>
+</body>
+</html>
